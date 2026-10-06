@@ -389,6 +389,24 @@ section { padding: 6.5rem 8vw; }
   border-top: 1px solid var(--line);
   padding-top: 0.7rem;
 }
+.contract {
+  margin: 1rem 0 0;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
+  word-break: break-all;
+}
+.contract strong {
+  display: block;
+  font-family: Cinzel, serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  color: var(--gold);
+}
+.contract code {
+  font-family: Spectral, Georgia, serif;
+  font-size: 0.98rem;
+  color: var(--cream);
+}
 .stat-row strong {
   display: block;
   font-family: Cinzel, serif;
